@@ -11,7 +11,7 @@ public class ClientEnterprise {
     String representativeSurname;
     Integer contactsNumber;
 
-    private ClientEnterprise(String buisnesName, String nip, String representativeName, String representativeSurname, Integer contactsNumber){
+    public ClientEnterprise(String buisnesName, String nip, String representativeName, String representativeSurname){
         this.buisnesName = buisnesName;
         this.nip = nip;
         this.representativeName = representativeName;
